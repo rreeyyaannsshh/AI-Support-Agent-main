@@ -1,0 +1,28 @@
+# Local Python environment
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+
+# Credentials and deployment files
+.local/
+.env
+*.pem
+*.key
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
+deployment/
+
+# Local course material, archives, and development checks
+assignment/
+upstream/
+evidence/
+project_outcome/
+examples/
+docs/
+scripts/
+tests/
+pyproject.toml
+uv.lock
+REVISION_NOTES.md
